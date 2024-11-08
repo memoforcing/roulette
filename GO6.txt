@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Casino</title>
+</head>
+<body>
+
+    <html>
+ <body">
+ <div class="container">
+       <div class="casino">
+            <div class="roulette">
+             roulette
+            </div>     
+            <div class="table">
+                <div class="nzero">
+                    0
+                </div>
+                <div class="numbers">      
+                    <div class="casinorowsr1">
+                        <div class="n3">
+                           3
+                        </div>
+                        <div class="n6">
+                            6
+                        </div>
+                        <div class="n9">
+                            9
+                        </div>
+                        <div class="n12">
+                            12
+                        </div>
+                        <div class="n15">
+                           15
+                         </div>
+                         <div class="n18">
+                             18
+                         </div>
+                         <div class="n21">
+                             21
+                         </div>
+                         <div class="n24">
+                             24
+                         </div>
+                         <div class="n27">
+                            27
+                        </div>
+                        <div class="n30">
+                           30
+                         </div>
+                         <div class="n33">
+                             33
+                         </div>
+                         <div class="n36">
+                             36
+                         </div>               
+                    </div>
+                    <div class="casinorowsr2">
+                        <div class="n2">
+                            2
+                         </div>
+                         <div class="n5">
+                             5
+                         </div>
+                         <div class="n8">
+                             8
+                         </div>
+                         <div class="n11">
+                             11
+                         </div>
+                         <div class="n14">
+                            14
+                          </div>
+                          <div class="n17">
+                              17
+                          </div>
+                          <div class="n20">
+                              20
+                          </div>
+                          <div class="n23">
+                              23
+                          </div>
+                          <div class="n26">
+                             26
+                         </div>
+                         <div class="n29">
+                            29
+                          </div>
+                          <div class="n32">
+                              32
+                          </div>
+                          <div class="n35">
+                              35
+                          </div>
+
+                    </div>
+                    <div class="casinorowsr3">
+                        <div class="n1">
+                            1
+                         </div>
+                         <div class="n4">
+                             4
+                         </div>
+                         <div class="n7">
+                             7
+                         </div>
+                         <div class="n10">
+                             10
+                         </div>
+                         <div class="n13">
+                            13
+                          </div>
+                          <div class="n16">
+                              16
+                          </div>
+                          <div class="n19">
+                              19
+                          </div>
+                          <div class="n22">
+                              22
+                          </div>
+                          <div class="n25">
+                             25
+                         </div>
+                         <div class="n28">
+                            28
+                          </div>
+                          <div class="n31">
+                              31
+                          </div>
+                          <div class="n34">
+                              34
+                          </div>
+
+                    </div>
+                </div>
+            </div> 
+            <div class="endthirds">
+                <div class="column3">
+                    2to1
+                </div>
+                <div class="column2">
+                    2to1
+                </div>
+                <div class="column1">
+                    2to1
+                </div>
+                
+            </div>
+            
+            
+            
+       </div>
+       <div class="sides">
+        <div class="sidethirds">
+            <div class="sidethirds1">                
+            </div>
+            <div class="sidethirds2">
+                1st 12
+            </div>
+            <div class="sidethirds3">
+                2nd 12
+            </div>
+            <div class="sidethirds4">
+                3rd 12
+            </div>
+        </div>
+        <div class="redblack">
+            <div class="redblackvidebegin">
+            </div>
+            <div class="redblack118">
+                1 to 18
+            </div>
+            <div class="redblackeven">
+                EVEN
+            </div>
+            <div class="redblackred">
+                <div class="redlosange" id="redlosange">
+                </div>
+                <div class="redlosange2" id="redlosange2">
+                </div>
+            </div>
+            <div class="redblackblack">
+                <div class="blacklosange" id="blacklosange">
+                </div>
+                <div class="blacklosange2" id="blacklosange2">
+                </div>
+            </div>
+            <div class="redblackodd">
+                ODD
+            </div>
+            <div class="redblack1936">
+                19 to 36
+            </div>
+            <div class="redblackvideend">
+               
+            </div>
+
+        </div>
+        
+</div>
+
+<!--
+<div class="infos">
+    <div class="payments">
+
+    </div>
+    <div class="balance">
+    
+    </div>
+    <div class="statistics">
+    
+    </div>
+</div>   
+-->
+
+</body>
+</html>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
+¨
+
+*****************************************************************************************************************
+
+
+
+.container{
+    width: 80%;
+    height: 400px;
+    background-color: rgba(0, 255, 255, 0.584);    
+    margin-top: 60px;
+    margin-left: 140px;
+    display: flex;
+    flex-direction: column;   
+}
+
+.casino{
+    background-color: green;
+    width: 100%;
+    height: 60%;
+    display: flex;
+}
+
+.roulette{
+    background-color: crimson;
+    width: 20%;
+    height: 100%;   
+}
+
+.table{
+    background-color: green;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;    
+}
+.endthirds{
+    background-color: beige;
+    width: 8%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sides{
+    background-color: darkorchid;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidethirds{
+    width: 100%;
+    height: 50%;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+}
+
+.redblack{
+    width: 100%;
+    height: 50%;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;  
+}
+
+.nzero{
+    width: 10%;
+    height: 100%;
+    background-color: green;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+   
+}
+
+.numbers{
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+}
+
+.casinorowsr1{
+    width: 100%;
+    height: 33%;
+    background-color: white;
+    display: flex;
+}
+
+.casinorowsr2{
+    width: 100%;
+    height: 33%;
+    background-color: white;
+    display: flex;
+}
+
+.casinorowsr3{
+    width: 100%;
+    height: 34%;
+    background-color: white;
+    display: flex;
+}
+
+.n3{
+    width: 8.3%;
+    height: 100%;
+    background-color: rgb(255, 5, 5);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.n6{
+    width: 8.3%;
+    height: 100%;
+    background-color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.n9{
+    width: 8.3%;
+    height: 100%;
+    background-color: rgb(255, 5, 5);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.n12{
+    width: 8.3%;
+    height: 100%;
+    background-color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.n15{
+    width: 8.3%;
+    height: 100%;
+    background-color: rgb(255, 5, 5);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.n18{
+    width: 8.3%;
+    height: 100%;
+    background-color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.n21{
+    width: 8.3%;
+    height: 100%;
+    background-color: rgb(255, 5, 5);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.n24{
+    width: 8.3%;
+    height: 100%;
+    background-color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.n27{
+    width:8.3%;
+    height: 100%;
+    background-color: rgb(255, 5, 5);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.n30{
+    width: 8.3%;
+    height: 100%;
+    background-color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.n33{
+    width: 8.3%;
+    height: 100%;
+    background-color: rgb(255, 5, 5);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.n36{
+    width: 8.4%;
+    height: 100%;
+    background-color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.n2{
+    width: 8.3%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.n5{
+    width: 8.3%;
+    height: 100%;
+    background-color: red;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.n8{
+    width: 8.3%;
+    height: 100%;
+    background-color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.n11{
+    width: 8.32%;
+    height: 100%;
+    background-color: red;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.n14{
+    width: 8.3%;
+    height: 100%;
+    background-color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.n17{
+    width: 8.3%;
+    height: 100%;
+    background-color: red;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.n20{
+    width: 8.3%;
+    height: 100%;
+    background-color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.n23{
+    width: 8.3%;
+    height: 100%;
+    background-color: red;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.n26{
+    width:8.3%;
+    height: 100%;
+    background-color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.n29{
+    width: 8.3%;
+    height: 100%;
+    background-color: red;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.n32{
+    width: 8.3%;
+    height: 100%;
+    background-color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.n35{
+    width: 8.4%;
+    height: 100%;
+    background-color: red;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/*---------------------------------------------------*/
+.n1{
+    width: 8.3%;
+    height: 100%;
+    background-color: red;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.n4{
+    width: 8.3%;
+    height: 100%;
+    background-color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.n7{
+    width: 8.3%;
+    height: 100%;
+    background-color: red;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.n10{
+    width: 8.3%;
+    height: 100%;
+    background-color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.n13{
+    width: 8.3%;
+    height: 100%;
+    background-color: red;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.n16{
+    width: 8.3%;
+    height: 100%;
+    background-color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}    
+.n19{
+    width: 8.3%;
+    height: 100%;
+    background-color: red;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.n22{
+    width: 8.3%;
+    height: 100%;
+    background-color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.n25{
+    width:8.3%;
+    height: 100%;
+    background-color: red;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.n28{
+    width: 8.3%;
+    height: 100%;
+    background-color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.n31{
+    width: 8.3%;
+    height: 100%;
+    background-color: red;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.n34{
+    width: 8.4%;
+    height: 100%;
+    background-color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/*-------------------sidethirds1-2-3-4*/
+
+.sidethirds1{
+    width: 25.4%;
+    height: 100%;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidethirds2{
+    width: 22%;
+    height: 100%;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sidethirds3{
+    width: 22.5%;
+    height: 100%;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sidethirds4{
+    width: 22.6%;
+    height: 100%;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/*--------------------------------red black------------------------------------------- */
+.redblackvidebegin{
+    width: 25.5%;
+    height: 100%;
+    background-color: green;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.redblack118{
+    width: 11%;
+    height: 100%;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.redblackeven{
+    width: 11%;
+    height: 100%;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.redblackred{
+    width: 11.2%;
+    height: 100%;
+    background-color: rgb(25, 123, 25);
+}
+
+.redblackblack{
+    width: 11.2%;
+    height: 100%;
+    background-color: rgb(25, 123, 25);
+}
+
+.redblackodd{
+    width: 11.3%;
+    height: 100%;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.redblack1936{
+    width: 11.3%;
+    height: 100%;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.redblackvideend{
+    width: 7.5%;
+    height: 100%;
+    background-color: green;
+}
+
+
+/*-------------------------------infos-----------------------------------------*/
+
+.infos{
+    width: 100%;
+    height: 10%;
+    background-color: cadetblue;
+}
+
+/*---------------------------------endthirds---------------------------------------*/
+
+.column3{
+    width: 100%;
+    height: 33%;
+    background-color: green;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.column2{
+    width: 100%;
+    height: 33%;
+    background-color: green;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.column1{
+    width: 100%;
+    height: 34%;
+    background-color: green;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/*--------------------------------------losanges-----------------------------------*/
+
+.redblackred{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.redlosange{
+    height: 0px;
+    width: 0px;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent; 
+    border-top: 15px solid transparent;
+    border-bottom: 18px solid red;
+  
+}
+
+.redlosange2{
+    height: 0px;
+    width: 0px;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent; 
+    border-top: 18px solid red;
+    border-bottom: 30px solid transparent;   
+}
+
+.redblackblack{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blacklosange{
+    height: 0px;
+    width: 0px;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent; 
+    border-top: 15px solid transparent;
+    border-bottom: 18px solid black;
+  
+}
+
+.blacklosange2{
+    height: 0px;
+    width: 0px;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent; 
+    border-top: 18px solid black;
+    border-bottom: 30px solid transparent;   
+}
